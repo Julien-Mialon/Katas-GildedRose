@@ -38,19 +38,14 @@ namespace GildedRose
             };
 
             var app = new GildedRose(Items);
+            app.UpdateQuality();
 
-
-            for (var i = 0; i < 31; i++)
+            Console.WriteLine("name, sellIn, quality");
+            for (var j = 0; j < Items.Count; j++)
             {
-                Console.WriteLine("-------- day " + i + " --------");
-                Console.WriteLine("name, sellIn, quality");
-                for (var j = 0; j < Items.Count; j++)
-                {
-                    System.Console.WriteLine(Items[j]);
-                }
-                Console.WriteLine("");
-                app.UpdateQuality();
+                System.Console.WriteLine(Items[j]);
             }
+            Console.WriteLine("");
         }
     }
 

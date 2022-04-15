@@ -12,9 +12,5 @@
   <ItemGroup>
     <ProjectReference Include="..\GildedRose\GildedRose.csproj" />
   </ItemGroup>
-  
-  <ItemGroup>
-    <None Include="thirty-days.txt" CopyToPublishDirectory="PreserveNewest" CopyToOutputDirectory="PreserveNewest" />
-  </ItemGroup>
 
 </Project>
